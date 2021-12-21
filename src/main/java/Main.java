@@ -11,7 +11,7 @@ public class Main {
       if (input.equals("0")) {
         break;
       }
-      //TODO:напишите ваш код тут, результат вывести в консоль.
+
       input = input.replaceAll("[^0-9]", "");
       if (Pattern.matches("^7[0-9]{10}$", input)) {
         System.out.println(input);
